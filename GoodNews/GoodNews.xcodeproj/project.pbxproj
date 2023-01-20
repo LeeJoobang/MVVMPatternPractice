@@ -12,6 +12,7 @@
 		375A5FB4297AAEAF0017756C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375A5FB2297AAEAF0017756C /* Main.storyboard */; };
 		375A5FB6297AAEB10017756C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375A5FB5297AAEB10017756C /* Assets.xcassets */; };
 		375A5FB9297AAEB10017756C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375A5FB7297AAEB10017756C /* LaunchScreen.storyboard */; };
+		375A5FC2297AB5460017756C /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375A5FC1297AB5460017756C /* NewsListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		375A5FB5297AAEB10017756C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		375A5FB8297AAEB10017756C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		375A5FBA297AAEB10017756C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		375A5FC1297AB5460017756C /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		375A5FAB297AAEAF0017756C /* GoodNews */ = {
 			isa = PBXGroup;
 			children = (
+				375A5FC0297AB5160017756C /* Controller */,
 				375A5FAC297AAEAF0017756C /* AppDelegate.swift */,
 				375A5FAE297AAEAF0017756C /* SceneDelegate.swift */,
 				375A5FB2297AAEAF0017756C /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				375A5FBA297AAEB10017756C /* Info.plist */,
 			);
 			path = GoodNews;
+			sourceTree = "<group>";
+		};
+		375A5FC0297AB5160017756C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				375A5FC1297AB5460017756C /* NewsListTableViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				375A5FAD297AAEAF0017756C /* AppDelegate.swift in Sources */,
+				375A5FC2297AB5460017756C /* NewsListTableViewController.swift in Sources */,
 				375A5FAF297AAEAF0017756C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
