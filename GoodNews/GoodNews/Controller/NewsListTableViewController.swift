@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class NewsListTableViewController: UITableViewController{
+class NewsListTableViewController: UITableViewController, UINavigationBarDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,7 +17,8 @@ class NewsListTableViewController: UITableViewController{
     
     private func setup(){
         self.navigationController?.navigationBar.prefersLargeTitles = true
-        
+//        self.navigationController?.navigationBar.barTintColor = UIColor.gray
+
     }
     
     
