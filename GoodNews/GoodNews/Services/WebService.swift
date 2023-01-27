@@ -16,8 +16,8 @@ class WebService {
                 print(error.localizedDescription)
                 completion(nil)
             } else if let data = data {
-                print(data)
+                print("data:\(data)")
             }
-        }
+        }.resume()
     }
 }
