@@ -15,6 +15,7 @@
 		375A5FC2297AB5460017756C /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375A5FC1297AB5460017756C /* NewsListTableViewController.swift */; };
 		EBF33234298357800068C227 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF33233298357800068C227 /* WebService.swift */; };
 		EBF3323729835DB20068C227 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF3323629835DB20068C227 /* Article.swift */; };
+		EBF3323A298367CB0068C227 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF33239298367CB0068C227 /* ArticleViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		375A5FC1297AB5460017756C /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
 		EBF33233298357800068C227 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		EBF3323629835DB20068C227 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		EBF33239298367CB0068C227 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		375A5FAB297AAEAF0017756C /* GoodNews */ = {
 			isa = PBXGroup;
 			children = (
+				EBF33238298365110068C227 /* View Models */,
 				EBF3323529835D9A0068C227 /* Models */,
 				EBF33232298357630068C227 /* Services */,
 				375A5FC0297AB5160017756C /* Controller */,
@@ -95,6 +98,14 @@
 				EBF3323629835DB20068C227 /* Article.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		EBF33238298365110068C227 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				EBF33239298367CB0068C227 /* ArticleViewModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +182,7 @@
 				375A5FAD297AAEAF0017756C /* AppDelegate.swift in Sources */,
 				375A5FC2297AB5460017756C /* NewsListTableViewController.swift in Sources */,
 				EBF33234298357800068C227 /* WebService.swift in Sources */,
+				EBF3323A298367CB0068C227 /* ArticleViewModel.swift in Sources */,
 				375A5FAF297AAEAF0017756C /* SceneDelegate.swift in Sources */,
 				EBF3323729835DB20068C227 /* Article.swift in Sources */,
 			);
