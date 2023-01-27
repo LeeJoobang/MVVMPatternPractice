@@ -17,8 +17,6 @@ class NewsListTableViewController: UITableViewController, UINavigationBarDelegat
     
     private func setup(){
         self.navigationController?.navigationBar.prefersLargeTitles = true
-//        self.navigationController?.navigationBar.barTintColor = UIColor.gray
-
     }
     
     
